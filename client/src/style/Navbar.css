@@ -1,13 +1,33 @@
-header{
-    height: 90px;
-    background-color: green;
-    width: 100%;
+header {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header a img{
+header a img {
     height: 75px;
-    width: 90px;
-    margin: 6px 0 0 180px;
+    margin: 6px 0 0 170px;
 }
 
+nav ul li a{
+    color: white;
+}
 
+header ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul a {
+    transition: all 0.3s ease 0s;
+}
+
+header ul a:hover {
+    color: #0088a9;
+}
+
+nav{
+    margin-right: 200px;
+}
