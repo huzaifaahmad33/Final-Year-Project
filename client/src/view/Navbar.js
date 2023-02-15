@@ -1,17 +1,19 @@
 import React from 'react'
+import logo from '../images/logo.png'
+import '../style/Navbar.css'
 
 function Navbar() {
   return (
     <div>
       <header>
-        <a>
-          <img></img>
+        <a href='/'>
+          <img src={logo} alt='logo'></img>
         </a>
         <nav>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
           </ul>
         </nav>
       </header>
