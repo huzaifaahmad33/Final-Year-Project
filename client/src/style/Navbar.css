@@ -31,3 +31,43 @@ header ul a:hover {
 nav{
     margin-right: 200px;
 }
+
+@media only screen and (max-width: 768px) {
+    header a img {
+    height: 75px;
+    margin: 6px 0 0 100px;
+}
+nav{
+    margin-right: 60px;
+}
+
+}
+
+@media only screen and (max-width: 960px) {
+    header a img {
+    height: 75px;
+    margin: 6px 0 0 100px;
+}
+nav{
+    margin-right: 50px;
+}
+
+}
+
+@media only screen and (max-width: 1128px) {
+    header a img {
+    height: 75px;
+    margin: 6px 0 0 100px;
+}
+nav{
+    margin-right: 50px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    header a img {
+    height: 50px;
+    margin: 6px 0 0 40px;
+}
+}
