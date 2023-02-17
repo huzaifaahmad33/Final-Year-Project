@@ -1,43 +1,41 @@
 import React from 'react'
 import logo from '../images/logo.png'
 import '../style/Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <div>
-        <main>
-            Content
-        </main>
       <footer className='footer'>
         <div className="footer-left">
             <img src={logo} alt="" />
-            <p>Thank You for Ordering from Blueco.</p>
+            <p>Thank you for ordering from Blueco.</p>
         </div>
         <ul className="footer-right">
             <li>
                 <h2>Information</h2>
                 <ul className="box">
-                    <li><a href="/">About Us</a></li>
-                    <li><a href="/">Speak your mind</a></li>
-                    <li><a href="/">Careers</a></li>
-                    <li><a href="/">Contact Us</a></li>
+                    <li><Link to="/about-us">About Us</Link></li>
+                    <li><Link to="/speak-your-mind">Speak your mind</Link></li>
+                    <li><Link to="/careers">Careers</Link></li>
+                    <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul>
             </li>
             <li className='features'>
                 <h2>Contact Us</h2>
                 <ul className="box">
-                    <li><a href="/">0305-2094956</a></li>
-                    <li><a href="/">0306-9353   680</a></li>
-                    <li><a href="/">ahuzaifa64@gmail.com</a></li>
-                    <li><a href="/">haseeb@gmail.com</a></li>
+                    <li><Link to="/">0305-2094956</Link></li>
+                    <li><Link to="/">0306-9353680</Link></li>
+                    <li><Link to="/">ahuzaifa64@gmail.com</Link></li>
+                    <li><Link to="/">haseeb@gmail.com</Link></li>
                 </ul>
             </li>
             <div className="socials">
                 <h4>Follow Us</h4>
-                <a href="/"><i><ion-icon name="logo-facebook"></ion-icon></i></a>
-                <a href="/"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
-                <a href="/"><i><ion-icon name="logo-github"></ion-icon></i></a>
-                <a href="/"><i><ion-icon name="logo-instagram"></ion-icon></i></a>
+                <a href="https://www.facebook.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-facebook"></ion-icon></i></a>
+                <a href="https://twitter.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-twitter"></ion-icon></i></a>
+                <a href="https://github.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-github"></ion-icon></i></a>
+                <a href="https://www.instagram.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-instagram"></ion-icon></i></a>
             </div>
         </ul>
         <div className="footer-bottom">
