@@ -1,6 +1,13 @@
+.discount {
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
 header {
     display: flex;
-    background-color: black;
+    background-color: white;
     height: 100px;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +19,9 @@ header a img {
 }
 
 nav ul li a{
-    color: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: large;
 }
 
 header ul li {
@@ -29,7 +38,7 @@ header ul a:hover {
 }
 
 nav{
-    margin-right: 200px;
+    margin-right: 580px;
 }
 
 @media only screen and (max-width: 768px) {

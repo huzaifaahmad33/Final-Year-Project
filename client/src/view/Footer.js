@@ -11,48 +11,37 @@ function Footer() {
       <footer className='footer'>
         <div className="footer-left">
             <img src={logo} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus explicabo illo quisquam eius optio?</p>
+            <p>Thank You for Ordering from Blueco.</p>
+        </div>
+        <ul className="footer-right">
+            <li>
+                <h2>Information</h2>
+                <ul className="box">
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/">Speak your mind</a></li>
+                    <li><a href="/">Careers</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </li>
+            <li className='features'>
+                <h2>Contact Us</h2>
+                <ul className="box">
+                    <li><a href="/">0305-2094956</a></li>
+                    <li><a href="/">0306-9353   680</a></li>
+                    <li><a href="/">ahuzaifa64@gmail.com</a></li>
+                    <li><a href="/">haseeb@gmail.com</a></li>
+                </ul>
+            </li>
             <div className="socials">
+                <h4>Follow Us</h4>
                 <a href="/"><i><ion-icon name="logo-facebook"></ion-icon></i></a>
                 <a href="/"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
                 <a href="/"><i><ion-icon name="logo-github"></ion-icon></i></a>
                 <a href="/"><i><ion-icon name="logo-instagram"></ion-icon></i></a>
             </div>
-        </div>
-        <ul className="footer-right">
-            <li>
-                <h2>Product</h2>
-                <ul className="box">
-                    <li><a href="/">Theme Design</a></li>
-                    <li><a href="/">Wordpress</a></li>
-                    <li><a href="/">Plugin Design</a></li>
-                    <li><a href="/">HTML Template</a></li>
-                </ul>
-            </li>
-            <li className='features'>
-                <h2>Useful Links</h2>
-                <ul className="box">
-                    <li><a href="/">Theme Design</a></li>
-                    <li><a href="/">Wordpress</a></li>
-                    <li><a href="/">Plugin Design</a></li>
-                    <li><a href="/">HTML Template</a></li>
-                    <li><a href="/">Certifications</a></li>
-                </ul>
-            </li>
-            <li className='box'>
-                <h2>Useful Links</h2>
-                <ul className="box">
-                    <li><a href="/">Theme Design</a></li>
-                    <li><a href="/">Wordpress</a></li>
-                    <li><a href="/">Plugin Design</a></li>
-                    <li><a href="/">HTML Template</a></li>
-                    <li><a href="/">Certifications</a></li>
-                    <li><a href="/">Pakistan</a></li>
-                </ul>
-            </li>
         </ul>
         <div className="footer-bottom">
-            <p>All Rights reserved by &copy;Blueco 2023</p>
+            <p>All Rights reserved by &copy;Blueco. 2023</p>
         </div>
       </footer>
     </div>
