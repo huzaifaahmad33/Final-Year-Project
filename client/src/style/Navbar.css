@@ -1,5 +1,5 @@
 .discount {
-    background-color: black;
+    background-color: black !important;
     color: white;
     font-size: small;
     text-align: center;
@@ -24,17 +24,27 @@ nav ul li a{
     font-size: large;
 }
 
+nav ul li a::after {
+    content: "";
+    background-color: #ffc60b;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    display: block;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    transition: 0.3s linear;
+}
+
 header ul li {
     display: inline-block;
     padding: 0 20px;
 }
 
 header ul a {
-    transition: all 0.3s ease 0s;
-}
-
-header ul a:hover {
-    color: #0088a9;
+    transition: 0.3s ease 0s;
 }
 
 nav{
