@@ -1,14 +1,61 @@
-main {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9b9b9b;
-    line-height: 3.8;
-    font-size: 80px;
-    text-transform: uppercase;
-    font-weight: bold;
+.careersbanner {
+    display: block;
+    overflow: hidden;
 }
+
+.careersbanner img {
+    max-width: 100%;
+}
+
+.wearenowhiringheading h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.careersform form input, textarea, button {
+    display: flex;
+    flex-direction: column;
+    color: #495057;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"] {
+      padding: 10px;
+      margin-bottom: 15px;
+      width: 300px;
+      border: 1px solid black;
+      font-family: inherit;
+    }
+  
+  .careersform textarea {
+    resize: none;
+    width: 300px;
+    font-family: inherit;
+    height: auto;
+    overflow: auto;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .careersform {
+    margin-left: 40%;
+  }
+  
+  .careersform button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 40px;
+    margin-left: 70px;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #495057;
+    border: 1px solid rgb(163, 153, 153);
+    background-color: #ffc60b;
+    padding: 10px 39px;
+  }
