@@ -1,14 +1,27 @@
-main {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9b9b9b;
-    line-height: 3.8;
-    font-size: 80px;
+.aboutusbanner {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .aboutusbanner img {
+    max-width: 100%;
+  }
+  
+  .aboutusheading {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
-}
+  }
+  
+  .aboutuspara {
+    text-align: center;
+    max-width: 70%;
+    margin-left: 15%;
+  }
+  
+  .aboutuspizza {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }

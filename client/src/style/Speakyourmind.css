@@ -1,14 +1,54 @@
-main {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
+.speakyourmindbanner {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .speakyourmindbanner img {
+    max-width: 100%;
+  }
+  
+  .speakyourmindform form input, textarea, button {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9b9b9b;
-    line-height: 3.8;
-    font-size: 80px;
-    text-transform: uppercase;
+    flex-direction: column;
+    color: #495057;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+      padding: 10px;
+      margin-bottom: 15px;
+      width: 300px;
+      border: 1px solid black;
+      font-family: inherit;
+    }
+  
+  .speakyourmindform textarea {
+    resize: none;
+    width: 300px;
+    font-family: inherit;
+    height: auto;
+    overflow: auto;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .speakyourmindform {
+    margin-left: 40%;
+  }
+  
+  .speakyourmindform button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 40px;
+    margin-left: 70px;
+    font-size: large;
+    border-radius: 5px;
     font-weight: bold;
-}
+    color: rgb(74, 73, 73);
+    border: 1px solid rgb(163, 153, 153);
+    background-color: #fff;
+    padding: 9px 39px;
+  }
