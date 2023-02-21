@@ -32,4 +32,14 @@
     text-align: center;
     line-height: 250px;
     font-size: x-large;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 3px;
+}
+
+.menu-main div {
+    overflow: hidden;
+}
+
+.menu-main div a img {
+    width: 100%;
 }
