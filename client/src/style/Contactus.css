@@ -15,6 +15,7 @@
   }
   
   input[type="text"],
+  input[type="tel"],
   input[type="email"] {
       padding: 10px;
       margin-bottom: 15px;
@@ -35,7 +36,8 @@
   }
   
   .contactusform {
-    margin-left: 40%;
+    margin-left: 20%;
+    display: flex;
   }
   
   .contactusform button {
@@ -43,7 +45,7 @@
     margin-bottom: 30px;
     width: 205px;
     height: 40px;
-    margin-left: 70px;
+    margin-left: 50px;
     font-size: large;
     border-radius: 5px;
     font-weight: bold;
@@ -51,4 +53,21 @@
     border: 1px solid rgb(163, 153, 153);
     background-color: #ffc60b;
     padding: 10px 39px;
+  }
+
+  .contactuslinks {
+    display: inline-block;
+    color: black;
+    margin-left: 200px;
+    margin-top: 200px;
+  }
+
+  .contactuslinks a {
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  .contactuslinks h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
   }
