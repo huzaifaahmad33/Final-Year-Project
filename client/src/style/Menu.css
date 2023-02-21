@@ -1,14 +1,35 @@
-main {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9b9b9b;
-    line-height: 3.8;
-    font-size: 80px;
+.menu-heading {
     text-transform: uppercase;
-    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-heading::after {
+    content: "";
+    background-color: #ffc60b;
+    height: 2px;
+    width: 35px;
+    margin: auto;
+    display: block;
+}
+
+.menu-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.menu-main div {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(210,168,175,1) 51%, rgba(100,144,208,1) 85%);
+    height: 270px;
+    width: 350px;
+    margin: 30px 20px;
+    text-align: center;
+    line-height: 250px;
+    font-size: x-large;
 }
