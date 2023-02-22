@@ -21,7 +21,7 @@ function Menu() {
                 <img src={pizza} alt="" />
               </Link>
               <div className="label">
-                <h1>Pizza</h1>
+                <h1 className='pizza'>Pizza</h1>
               </div>
             </div>
             <div className="card">
@@ -29,7 +29,7 @@ function Menu() {
                 <img src={sidelines} alt="" />
               </Link>
               <div className="label">
-                <h1>Sidelines</h1>
+                <h1 className='sidelines'>Sidelines</h1>
               </div>
             </div>
             <div className="card">
@@ -37,7 +37,7 @@ function Menu() {
                 <img src={desserts} alt="" />
               </Link>
               <div className="label">
-                <h1>Desserts</h1>
+                <h1 className='desserts'>Desserts</h1>
               </div>
             </div>
             <div className="card">
@@ -45,7 +45,7 @@ function Menu() {
                 <img src={deals} alt="" />
               </Link>
               <div className="label">
-                <h1>Deals</h1>
+                <h1 className='deals'>Deals</h1>
               </div>
             </div>
             <div className="card">
@@ -53,7 +53,7 @@ function Menu() {
                 <img src={drinks} alt="" />
               </Link>
               <div className="label">
-                <h1>Drinks</h1>
+                <h1 className='drinks'>Drinks</h1>
               </div>
             </div>
             <div className="card">
@@ -61,7 +61,7 @@ function Menu() {
                 <img src={dips} alt="" />
               </Link>
               <div className="label">
-                <h1>Dips</h1>
+                <h1 className='dips'>Dips</h1>
               </div>
             </div>
           </div>
