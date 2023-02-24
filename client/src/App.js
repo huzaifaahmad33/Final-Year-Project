@@ -23,7 +23,7 @@ function App() {
       <Route exact path='/deals' element={<Deals/>}/>
       <Route exact path='/contact-us' element={<Contactus/>}/>
       <Route exact path='/careers' element={<Careers/>}/>
-      <Route exact path='/Speak-your-mind' element={<Speakyourmind/>}/>
+      <Route exact path='/speak-your-mind' element={<Speakyourmind/>}/>
       <Route exact path='/about-us' element={<Aboutus/>}/>
       <Route exact path='/pizza' element={<Pizza/>}/>
       <Route exact path='/side-lines' element={<Sidelines/>}/>

@@ -16,9 +16,9 @@ use App\Http\Controllers\ContactusController;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::post('speak-your-mind',[SpeakyourmindConroller::class, 'store']);
-Route::post('careers',[CareersController::class, 'store']);
-Route::post('contact-us',[ContactusController::class, 'store']);
+Route::post('/speak-yor-mind',[SpeakyourmindConroller::class, 'store']);
+Route::post('/careers',[CareersController::class, 'store']);
+Route::post('/contact-us',[ContactusController::class, 'store']);
 
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {

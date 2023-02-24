@@ -1,20 +1,51 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../style/Contactus.css'
 import contactusbanner from '../images/Banners/contactusbanner.jpg'
+import axios from 'axios'
 
 function Contactus() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [city, setCity] = useState('');
+  const [message, setMessage] = useState('');
+
+  const saveContactUs = async (e) => {
+    e.preventDefault();
+
+    const contatcUs = {
+      contactus_name: name,
+      contactus_email: email,
+      contactus_phone: phone,
+      contactus_city: city,
+      contactus_message: message
+    }
+
+    const res = await axios.post('http://127.0.0.1:8000/api/contact-us', contatcUs);
+
+    if(res.data.status === 200){
+      console.log(res.data.message);
+      setName('');
+      setEmail('');
+      setCity('');
+      setMessage('');
+      alert('Submitted Successfully');
+    }
+  }
+
   return (
     <div>
       <div className='contactusbanner'>
         <img src={contactusbanner} alt="contactusbanner" />
       </div>
       <div className='contactusform'>
-        <form action="">
-        <input type='text' placeholder='Full Name' />
-        <input type='email' placeholder='Email' />
-        <input type='tel' placeholder='Contact No.' />
-        <input type='text' placeholder='City' />
-        <textarea name="" id="" cols="30" rows="10" form='formspeakyourmind' placeholder='Message'></textarea>
+        <form onSubmit={saveContactUs}>
+        <input type='text' placeholder='Full Name' name='contactus_name' value={name} onChange={(e) => setName(e.target.value)} />
+        <input type='email' placeholder='Email' name='contactus_email' value={email} onChange={(e) => setEmail(e.target.value)} />
+        <input type='tel' placeholder='Contact No.' name='contactus_phone' value={phone} onChange={(e) => setPhone(e.target.value)} />
+        <input type='text' placeholder='City' name='contactus_city' value={city} onChange={(e) => setCity(e.target.value)} />
+        <textarea name="contactus_message" id="" cols="30" rows="10" form='formspeakyourmind' placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
         <button>Send Message</button>
         </form>
         <div className='contactuslinks'>
