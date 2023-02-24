@@ -28,6 +28,7 @@ function Contactus() {
       console.log(res.data.message);
       setName('');
       setEmail('');
+      setPhone('');
       setCity('');
       setMessage('');
       alert('Submitted Successfully');

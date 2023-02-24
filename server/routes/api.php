@@ -2,9 +2,9 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SpeakyourmindConroller;
 use App\Http\Controllers\CareersController;
 use App\Http\Controllers\ContactusController;
+use App\Http\Controllers\SpeakyourmindController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +16,7 @@ use App\Http\Controllers\ContactusController;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::post('/speak-yor-mind',[SpeakyourmindConroller::class, 'store']);
+Route::post('/speak-your-mind',[SpeakyourmindController::class, 'store']);
 Route::post('/careers',[CareersController::class, 'store']);
 Route::post('/contact-us',[ContactusController::class, 'store']);
 

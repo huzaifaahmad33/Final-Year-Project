@@ -20,7 +20,7 @@ function Speakyourmind() {
       sym_message: message
     }
 
-    const res = await axios.post('http://127.0.0.1:8000/api/speak-yor-mind', speakYourMind);
+    const res = await axios.post('http://127.0.0.1:8000/api/speak-your-mind', speakYourMind);
 
     if(res.data.status === 200){
       console.log(res.data.message);
