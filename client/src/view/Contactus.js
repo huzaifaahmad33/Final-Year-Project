@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import '../style/Contactus.css'
 import contactusbanner from '../images/Banners/contactusbanner.jpg'
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 function Contactus() {
 
@@ -38,7 +39,7 @@ function Contactus() {
   return (
     <div>
       <div className='contactusbanner'>
-        <img src={contactusbanner} alt="contactusbanner" />
+        <Link to='/careers'><img src={contactusbanner} alt="contactusbanner" /></Link>
       </div>
       <div className='contactusform'>
         <form onSubmit={saveContactUs}>

@@ -1,14 +1,97 @@
-main {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9b9b9b;
-    line-height: 3.8;
-    font-size: 80px;
+.pizza-heading {
     text-transform: uppercase;
-    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pizza-heading::after {
+    content: "";
+    background-color: #ffc60b;
+    height: 2px;
+    width: 35px;
+    margin: auto;
+    display: block;
+}
+
+.pizza-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pizza-main .card {
+    height: 310px;
+    width: 350px;
+    margin: 30px 20px;
+    text-align: center;
+    line-height: 250px;
+    font-size: x-large;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 3px;
+    position: relative;
+}
+
+.pizza-main .card {
+    overflow: hidden;
+}
+
+.pizza-main .card a img {
+    width: 100%;
+}
+
+.card .label {
+    height: 50px;
+    width: 350px;
+    padding: 6px;
+    position: absolute;
+    color: white;
+    background: rgb(27,27,27,.5);
+    margin-bottom: 50px;
+    bottom: -50px;
+}
+
+.card .label .pizza {
+    position: absolute;
+    bottom: -100px;
+    left: 130px;
+    
+}
+
+.card .label .sidelines {
+    position: absolute;
+    bottom: -100px;
+    left: 95px;
+    
+}
+
+.card .label .desserts {
+    position: absolute;
+    bottom: -100px;
+    left: 105px;
+    
+}
+
+.card .label .deals {
+    position: absolute;
+    bottom: -100px;
+    left: 125px;
+    
+}
+
+.card .label .drinks {
+    position: absolute;
+    bottom: -100px;
+    left: 120px;
+    
+}
+
+.card .label .dips {
+    position: absolute;
+    bottom: -100px;
+    left: 135px;
+    
 }
