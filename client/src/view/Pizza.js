@@ -17,111 +17,113 @@ import xtreme12incherv1 from '../images/Pizza/xtreme-12incher-v1.jpg'
 function Pizza() {
   return (
     <div>
-        <section>
+      <section>
         <div className='pizza-heading'>
           <h1>Pizza</h1>
         </div>
-          <div className="pizza-main">
-            <div className="card">
-              <Link to="/pizza">
-                <img src={CrispyChickenPizza9Incher} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='pizza'>Crispy 9 Incher - Serves 2-3 Rs. 999</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/side-lines">
-                <img src={CrispyChickenPizza10Incher} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='sidelines'>Sidelines</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/desserts">
-                <img src={fullv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='desserts'>Desserts</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/deals">
-                <img src={halfandhalfv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='deals'>Deals</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/drinks">
-                <img src={original10incherv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='drinks'>Drinks</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={original15incherv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={pan9incherdesktop} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={pan12incherdesktop} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={slicedesktop} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={thinza10incherv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={xtreme9incherv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
-            </div>
-            <div className="card">
-              <Link to="/dips">
-                <img src={xtreme12incherv1} alt="" />
-              </Link>
-              <div className="label">
-                <h1 className='dips'>Dips</h1>
-              </div>
+        <div className='pizza-main'>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={CrispyChickenPizza9Incher} alt='' />
+            </Link>
+            <div className='label'>
+              <h6 className='pizza1'>Crispy 9 Incher-Serves 2-3 - Rs. 999</h6>
             </div>
           </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={CrispyChickenPizza10Incher} alt='' />
+            </Link>
+            <div className='label'>
+              <h6 className='pizza2'>Crispy 9 Incher-Serves 2-3 - Rs. 1199</h6>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={fullv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h6 className='pizza3'>Oringinal Full-Serves 6-8 - Rs. 3399</h6>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={halfandhalfv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h6 className='pizza4'>
+                Original half-Serves 6-8 - Rs. 3399
+              </h6>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={original10incherv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza5'>Original 10 Incher-Serves 2 - Rs. 1199</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={original15incherv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza6'>Original 15 Incher-Serves 4 - Rs. 1949</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={pan9incherdesktop} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza7'>Pan 9 Incher-Serve 2 - Rs. 999</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={pan12incherdesktop} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza8'>Pan 12 Incher-Serve 3-4 - Rs. 1449</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={slicedesktop} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza9'>Original Slice-Serve 1 - Rs. 599</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={thinza10incherv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza10'>Thinza 10 Incher-Serve 2 - Rs. 1249</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={xtreme9incherv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza11'>Xtreme 9 Incher-Serve 2-3 - Rs. 1099</h2>
+            </div>
+          </div>
+          <div className='pizza-card'>
+            <Link to='/'>
+              <img src={xtreme12incherv1} alt='' />
+            </Link>
+            <div className='label'>
+              <h2 className='pizza12'>Xtreme 12 Incher-Serve 3-4 - Rs. 1699</h2>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default Pizza
+export default Pizza;

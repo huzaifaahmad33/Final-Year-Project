@@ -3,48 +3,48 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-}
-
-.pizza-heading::after {
+  }
+  
+  .pizza-heading::after {
     content: "";
     background-color: #ffc60b;
     height: 2px;
     width: 35px;
     margin: auto;
     display: block;
-}
-
-.pizza-main {
+  }
+  
+  .pizza-main {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
-}
-
-.pizza-main .card {
-    height: 310px;
+  }
+  
+  .pizza-main .pizza-card {
+    height: 300px;
     width: 350px;
-    margin: 30px 20px;
+    margin: 20px 20px;
     text-align: center;
     line-height: 250px;
     font-size: x-large;
     box-shadow: 5px 5px 20px black;
     border-radius: 3px;
     position: relative;
-}
-
-.pizza-main .card {
+  }
+  
+  .pizza-main .pizza-card {
     overflow: hidden;
-}
-
-.pizza-main .card a img {
+  }
+  
+  .pizza-main .pizza-card a img {
     width: 100%;
-}
-
-.card .label {
-    height: 50px;
+  }
+  
+  .pizza-card .label {
+    height: 70px;
     width: 350px;
     padding: 6px;
     position: absolute;
@@ -52,46 +52,100 @@
     background: rgb(27,27,27,.5);
     margin-bottom: 50px;
     bottom: -50px;
-}
-
-.card .label .pizza {
+  }
+  
+  .pizza-card .label .pizza1 {
+    position: absolute;
+    bottom: -330px;
+    left: 30px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza2 {
     position: absolute;
     bottom: -100px;
-    left: 130px;
-    
-}
-
-.card .label .sidelines {
+    left: 30px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza3 {
     position: absolute;
     bottom: -100px;
-    left: 95px;
-    
-}
-
-.card .label .desserts {
+    left: 27px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza4 {
     position: absolute;
     bottom: -100px;
-    left: 105px;
-    
-}
-
-.card .label .deals {
+    left: 30px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza5 {
     position: absolute;
     bottom: -100px;
-    left: 125px;
-    
-}
-
-.card .label .drinks {
+    left: 14px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza6 {
     position: absolute;
     bottom: -100px;
-    left: 120px;
-    
-}
-
-.card .label .dips {
+    left: 10px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza7 {
     position: absolute;
     bottom: -100px;
-    left: 135px;
-    
-}
+    left: 50px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza8 {
+    position: absolute;
+    bottom: -100px;
+    left: 30px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza9 {
+    position: absolute;
+    bottom: -100px;
+    left: 35px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza10 {
+    position: absolute;
+    bottom: -100px;
+    left: 32px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza11 {
+    position: absolute;
+    bottom: -100px;
+    left: 23px;
+    top: -90px;
+    text-transform: uppercase;
+  }
+  
+  .pizza-card .label .pizza12 {
+    position: absolute;
+    bottom: -100px;
+    left: 14px;
+    top: -90px;
+    text-transform: uppercase;
+  }
