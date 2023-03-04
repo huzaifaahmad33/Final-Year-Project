@@ -12,11 +12,32 @@ import midnightbanner from '../images/slider/midnightbanner.jpg'
 import pancrustbanner from '../images/slider/pancrustbanner.jpg'
 import stuffedcrustbanner from '../images/slider/stuffedcrustbanner.jpg'
 import summerdealbanner from '../images/slider/summerdealbanner.jpg'
+import XtremePizza from '../images/slider/XtremePizza.jpg'
+import chickencluckerbanner from '../images/slider/1920x450-chicken-clucker-banner.png'
+import pepronibanner from '../images/slider/1920x450-double-peproni-banner.png'
 import { Link } from 'react-router-dom'
 import HeroSlider, { Slide } from 'hero-slider';
 
 
 const slides = [
+  {
+    backgroundImage: `url(${pepronibanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+  {
+    backgroundImage: `url(${chickencluckerbanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+  {
+    backgroundImage: `url(${XtremePizza})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
   {
     backgroundImage: `url(${homebanner})`,
     backgroundSize: 'cover',

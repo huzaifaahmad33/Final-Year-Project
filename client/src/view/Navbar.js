@@ -21,6 +21,7 @@ function Navbar() {
             <li><Link to="/contact-us">Contact us</Link></li>
           </ul>
         </nav>
+        <button className='nav-cart'><Link to="/cart"><i><ion-icon name="cart"></ion-icon></i></Link></button>
       </header>
     </div>
   )
