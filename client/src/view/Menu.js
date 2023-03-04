@@ -6,17 +6,89 @@ import desserts from '../images/Menu/desserts.jpg'
 import drinks from '../images/Menu/drinks.jpg'
 import sidelines from '../images/Menu/sidelines.jpg'
 import deals from '../images/Menu/deals.jpg'
-// import homebanner from '../images/slider/homebanner.png'
-// import homebannersupersundaypsldeal from '../images/slider/homebannersupersundaypsldeal.jpg'
-// import midnightbanner from '../images/slider/midnightbanner.jpg'
-// import pancrustbanner from '../images/slider/pancrustbanner.jpg'
-// import stuffedcrustbanner from '../images/slider/stuffedcrustbanner.jpg'
-// import summerdealbanner from '../images/slider/summerdealbanner.jpg'
+import homebanner from '../images/slider/homebanner.png'
+import homebannersupersundaypsldeal from '../images/slider/homebannersupersundaypsldeal.jpg'
+import midnightbanner from '../images/slider/midnightbanner.jpg'
+import pancrustbanner from '../images/slider/pancrustbanner.jpg'
+import stuffedcrustbanner from '../images/slider/stuffedcrustbanner.jpg'
+import summerdealbanner from '../images/slider/summerdealbanner.jpg'
 import { Link } from 'react-router-dom'
+import HeroSlider, { Slide } from 'hero-slider';
+
+
+const slides = [
+  {
+    backgroundImage: `url(${homebanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+  },
+  {
+    backgroundImage: `url(${homebannersupersundaypsldeal})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+  {
+    backgroundImage: `url(${midnightbanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+  {
+    backgroundImage: `url(${pancrustbanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+  {
+    backgroundImage: `url(${stuffedcrustbanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+  {
+    backgroundImage: `url(${summerdealbanner})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+  },
+];
 
 function Menu() {
+  const handleBeforeChange = (previousSlide, nextSlide) => {
+    console.log('onBeforeChange', previousSlide, nextSlide);
+  };
+
+  const handleChange = (nextSlide) => {
+    console.log('onChange', nextSlide);
+  };
+
+  const handleAfterChange = (nextSlide) => {
+    console.log('onAfterChange', nextSlide);
+  };
   return (
     <div>
+      <HeroSlider
+        slidingAnimation='left_to_right'
+        orientation='horizontal'
+        initialSlide={1}
+        onBeforeChange={handleBeforeChange}
+        onChange={handleChange}
+        onAfterChange={handleAfterChange}
+        settings={{
+          slidingDuration: 250,
+          slidingDelay: 100,
+          shouldAutoplay: true,
+          shouldDisplayButtons: true,
+          autoPlayDuration: 3000,
+        }}
+        height={'350px'}
+      >
+        {slides.map((slide, index) => (
+          <Slide key={index} background={slide} />
+        ))}
+      </HeroSlider>
+
       <section>
         <div className='menu-heading'>
           <h1>Menu</h1>
