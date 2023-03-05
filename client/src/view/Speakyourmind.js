@@ -39,7 +39,7 @@ function Speakyourmind() {
       </div>
       <div className="speakyourmindform">
         <form onSubmit={saveSpeakyourmind} id='formspeakyourmind'>
-          <input type='text' placeholder='Name' name='sym_name' value={name} onChange={(e) => setName(e.target.value)}/>
+          <input type='text' placeholder='Name' name='sym_name' value={name} onChange={(e) => setName(e.target.value)} />
           <input type='email' placeholder='Email' name='sym_email' value={email} onChange={(e) => setEmail(e.target.value)} />
           <input type='text' placeholder='City' name='sym_city' value={city} onChange={(e) => setCity(e.target.value)} />
           <textarea name="sym_message" id="" cols="30" rows="10" form='formspeakyourmind' placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
