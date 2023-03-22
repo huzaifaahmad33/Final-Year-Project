@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../images/logofooter.png'
+import payment from '../images/payment/mastercard.png'
 import '../style/Footer.css'
 import { Link } from 'react-router-dom'
 
@@ -9,7 +10,8 @@ function Footer() {
       <footer className='footer'>
         <div className="footer-left">
             <img src={logo} alt="" />
-            <p>Thank you for ordering<br />Powered by Blueco.</p>
+            <p>Thank you for ordering<br />Powered by Blueco.</p><br />
+            <img src={payment} className='footer-payment' alt="" />
         </div>
         <ul className="footer-right">
             <li>
@@ -24,10 +26,10 @@ function Footer() {
             <li className='features'>
                 <h2>Contact Us</h2>
                 <ul className="box">
-                    <li><Link to="/">0305-2094956</Link></li>
-                    <li><Link to="/">0306-9353680</Link></li>
-                    <li><Link to="/">ahuzaifa64@gmail.com</Link></li>
-                    <li><Link to="/">haseeb@gmail.com</Link></li>
+                    <li><Link>0305-2094956</Link></li>
+                    <li><Link>0306-9353680</Link></li>
+                    <li><Link>ahuzaifa64@gmail.com</Link></li>
+                    <li><Link>haseeb@gmail.com</Link></li>
                 </ul>
             </li>
             <div className="socials">
