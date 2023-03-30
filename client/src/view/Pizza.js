@@ -121,6 +121,11 @@ function Pizza() {
             </div>
           </div>
         </div>
+        <div className='aboutuspizza'>
+      -------------------------------------
+        <ion-icon name='pizza-outline'></ion-icon>
+        -------------------------------------
+      </div>
       </section>
     </div>
   );
