@@ -21,20 +21,108 @@ function Desserts() {
       <div className="dessertstatement">
         <p>14th Street Pizza loves a sweet ending. Go for one of our delightfully rich desserts and give your sweet tooth utmost <br /> satisfaction.</p>
       </div>
-      <div className='desserts-main'>
-          <div className='desserts-card'>
-              <img src={cake} alt='' />
+      <div class="main">
+    <div class="card">
+      <img src={cake} alt="/"/>
+        <div class="card-details">
+          <div class="options">
+            <label>
+              <input type="checkbox" name="option1"/> Option 1
+            </label>
+            <select name="select1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
           </div>
-          <div className='desserts-card'>
-              <img src={minilava} alt='' />
-          </div>
-          <div className='desserts-card'>
-              <img src={nutella} alt='' />
-          </div>
-          <div className='desserts-card'>
-              <img src={brownie} alt='' />
+          <div class="options">
+            <label>
+              <input type="checkbox" name="option2"/> Option 2
+            </label>
+            <select name="select2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
           </div>
         </div>
+      </div>
+      <div class="card">
+        <img src={minilava} alt="/"/>
+          <div class="card-details">
+            <div class="options">
+              <label>
+                <input type="checkbox" name="option1"/> Option 1
+              </label>
+              <select name="select1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <div class="options">
+              <label>
+                <input type="checkbox" name="option2"/> Option 2
+              </label>
+              <select name="select2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src={nutella} alt="/"/>
+            <div class="card-details">
+              <div class="options">
+                <label>
+                  <input type="checkbox" name="option1"/> Option 1
+                </label>
+                <select name="select1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="options">
+                <label>
+                  <input type="checkbox" name="option2"/> Option 2
+                </label>
+                <select name="select2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src={brownie} alt="/"/>
+              <div class="card-details">
+                <div class="options">
+                  <label>
+                    <input type="checkbox" name="option1"/> Option 1
+                  </label>
+                  <select name="select1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="options">
+                  <label>
+                    <input type="checkbox" name="option2"/> Option 2
+                  </label>
+                  <select name="select2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
         <button className='desserts-addToCartButton'>
           Add to Cart
           <AiOutlineArrowRight></AiOutlineArrowRight>

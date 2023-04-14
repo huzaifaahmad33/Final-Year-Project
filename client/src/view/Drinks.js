@@ -26,32 +26,208 @@ function Drinks() {
       <div className="drinkstatement">
         <p>Your meal isn't complete without your favorite drink. Here's a selection of your favorites - perfect for one, or many if <br /> you're up for sharing.</p>
       </div>
-      <div className='drinks-main'>
-          <div className='drinks-card'>
-              <img src={coke} alt='' />
+      <div class="main">
+    <div class="card">
+      <img src={coke} alt="/"/>
+        <div class="card-details">
+          <div class="options">
+            <label>
+              <input type="checkbox" name="option1"/> Option 1
+            </label>
+            <select name="select1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
           </div>
-          <div className='drinks-card'>
-              <img src={cokezero} alt='' />
-          </div>
-          <div className='drinks-card'>
-              <img src={dasaniwater} alt='' />
-          </div>
-          <div className='drinks-card'>
-              <img src={dietcoke} alt='' />
-          </div>
-          <div className='drinks-card'>
-              <img src={fanta} alt='' />
-          </div>
-          <div className='drinks-card'>
-              <img src={minutemaid} alt='' />
-          </div>
-          <div className='drinks-card'>
-              <img src={sprite} alt='' />
-          </div>
-          <div className='drinks-card'>
-              <img src={spritezero} alt='' />
+          <div class="options">
+            <label>
+              <input type="checkbox" name="option2"/> Option 2
+            </label>
+            <select name="select2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
           </div>
         </div>
+      </div>
+      <div class="card">
+        <img src={cokezero} alt="/"/>
+          <div class="card-details">
+            <div class="options">
+              <label>
+                <input type="checkbox" name="option1"/> Option 1
+              </label>
+              <select name="select1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+            <div class="options">
+              <label>
+                <input type="checkbox" name="option2"/> Option 2
+              </label>
+              <select name="select2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src={dietcoke} alt="/"/>
+            <div class="card-details">
+              <div class="options">
+                <label>
+                  <input type="checkbox" name="option1"/> Option 1
+                </label>
+                <select name="select1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="options">
+                <label>
+                  <input type="checkbox" name="option2"/> Option 2
+                </label>
+                <select name="select2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src={dasaniwater} alt="/"/>
+              <div class="card-details">
+                <div class="options">
+                  <label>
+                    <input type="checkbox" name="option1"/> Option 1
+                  </label>
+                  <select name="select1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="options">
+                  <label>
+                    <input type="checkbox" name="option2"/> Option 2
+                  </label>
+                  <select name="select2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src={fanta} alt="/"/>
+                <div class="card-details">
+                  <div class="options">
+                    <label>
+                      <input type="checkbox" name="option1"/> Option 1
+                    </label>
+                    <select name="select1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                  </div>
+                  <div class="options">
+                    <label>
+                      <input type="checkbox" name="option2"/> Option 2
+                    </label>
+                    <select name="select2">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src={minutemaid} alt="/"/>
+                  <div class="card-details">
+                    <div class="options">
+                      <label>
+                        <input type="checkbox" name="option1"/> Option 1
+                      </label>
+                      <select name="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                    <div class="options">
+                      <label>
+                        <input type="checkbox" name="option2"/> Option 2
+                      </label>
+                      <select name="select2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                <img src={sprite} alt="/"/>
+                  <div class="card-details">
+                    <div class="options">
+                      <label>
+                        <input type="checkbox" name="option1"/> Option 1
+                      </label>
+                      <select name="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                    <div class="options">
+                      <label>
+                        <input type="checkbox" name="option2"/> Option 2
+                      </label>
+                      <select name="select2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                <img src={spritezero} alt="/"/>
+                  <div class="card-details">
+                    <div class="options">
+                      <label>
+                        <input type="checkbox" name="option1"/> Option 1
+                      </label>
+                      <select name="select1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                    <div class="options">
+                      <label>
+                        <input type="checkbox" name="option2"/> Option 2
+                      </label>
+                      <select name="select2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
         <button className='drinks-addToCartButton'>
           Add to Cart
           <AiOutlineArrowRight></AiOutlineArrowRight>
