@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div>
       <div className="discount">
-        Hey visitor, We've got a 15% discount for you! Now thats Awesome! 
+        Hey visitors, We've got a 15% discount for you! Now thats Awesome! 
       </div>
       <header>
         <Link to='/'>
@@ -15,7 +15,7 @@ function Navbar() {
         </Link>
         <nav>
           <ul>
-            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/">Menu</Link></li>
             <li><Link to="/deals">Deals</Link></li>
             <li><Link to="/order-online">Order Online</Link></li>
             <li><Link to="/contact-us">Contact us</Link></li>

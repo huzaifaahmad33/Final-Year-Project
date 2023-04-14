@@ -13,6 +13,8 @@ import slicedesktop from '../images/Pizza/slice-desktop.jpg'
 import thinza10incherv1 from '../images/Pizza/thinza-10incher-v1.jpg'
 import xtreme9incherv1 from '../images/Pizza/xtreme-9incher-v1.jpg'
 import xtreme12incherv1 from '../images/Pizza/xtreme-12incher-v1.jpg'
+import { AiOutlineArrowRight } from "react-icons/ai";
+
 
 function Pizza() {
   return (
@@ -121,6 +123,11 @@ function Pizza() {
             </div>
           </div>
         </div>
+        <button className='pizza-addToCartButton'>
+          Add to Cart
+          <AiOutlineArrowRight></AiOutlineArrowRight>
+          </button>
+          <AiOutlineArrowRight className='arrow'></AiOutlineArrowRight>
         <div className='aboutuspizza'>
       -------------------------------------
         <ion-icon name='pizza-outline'></ion-icon>

@@ -19,7 +19,7 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route exact path='/menu' element={<Menu/>}/>
+      <Route exact path='/' element={<Menu/>}/>
       <Route exact path='/deals' element={<Deals/>}/>
       <Route exact path='/contact-us' element={<Contactus/>}/>
       <Route exact path='/careers' element={<Careers/>}/>
