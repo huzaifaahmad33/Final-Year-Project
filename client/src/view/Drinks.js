@@ -11,6 +11,7 @@ import minutemaid from '../images/Drinks/minutemaid.jpg'
 import sprite from '../images/Drinks/sprite.jpg'
 import spritezero from '../images/Drinks/spritezero.jpg'
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from 'react-router-dom'
 
 
 
@@ -19,6 +20,17 @@ function Drinks() {
     <div>
       <div className='drinksbanner'>
         <img src={drinksbanner} alt="drinksbanner" />
+      </div>
+      <div className="navlinks">
+        <ul>
+          <li><Link to='/pizza'>Pizza</Link></li>
+          <li><Link to='/side-lines'>Sidelines</Link></li>
+          <li><Link to='/desserts'>Desserts</Link></li>
+          <li><Link to='/deals'>Deals</Link></li>
+          <li><Link to='/drinks'>Drinks</Link></li>
+          <li><Link to='/dips'>Dips</Link></li>
+        </ul>
+        <hr />
       </div>
       <div className="drinkscenterimage">
         <img src={drinksheading} alt="drinkscenterimage" />

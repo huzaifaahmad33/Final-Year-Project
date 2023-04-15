@@ -178,3 +178,22 @@
   margin-top: 21px;
   margin-left: 5px;
   }
+
+  .navlinks-pizza hr {
+    width: 50%;
+    margin-left: 380px;
+    display: inline-block;
+  }
+  
+  .navlinks-pizza li {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  .navlinks-pizza ul {
+    margin-top: 40px;
+    margin-left: 510px;
+  }

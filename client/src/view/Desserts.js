@@ -7,6 +7,7 @@ import minilava from '../images/Desserts/mini-lava-cake.jpg'
 import nutella from '../images/Desserts/mini-nutella.jpg'
 import brownie from '../images/Desserts/nutella-brownie.jpg'
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from 'react-router-dom'
 
 
 function Desserts() {
@@ -14,6 +15,17 @@ function Desserts() {
     <div>
       <div className='dessertsbanner'>
         <img src={sweetsomethingsbanner} alt="dessertsbanner" />
+      </div>
+      <div className="navlinks">
+        <ul>
+          <li><Link to='/pizza'>Pizza</Link></li>
+          <li><Link to='/side-lines'>Sidelines</Link></li>
+          <li><Link to='/desserts'>Desserts</Link></li>
+          <li><Link to='/deals'>Deals</Link></li>
+          <li><Link to='/drinks'>Drinks</Link></li>
+          <li><Link to='/dips'>Dips</Link></li>
+        </ul>
+        <hr />
       </div>
       <div className="dessertscenterimage">
         <img src={sweetsomethingsheading} alt="dessertscenterimage" />

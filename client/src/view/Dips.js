@@ -9,11 +9,24 @@ import ranch from '../images/Dips/ranch.jpg'
 import sour from '../images/Dips/sour-cream.jpg'
 import southwest from '../images/Dips/southwest.jpg'
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from 'react-router-dom'
+
 function Dips() {
   return (
     <div>
       <div className='dipsbanner'>
         <img src={dipsbanner} alt="dipsbanner" />
+      </div>
+      <div className="navlinks">
+        <ul>
+          <li><Link to='/pizza'>Pizza</Link></li>
+          <li><Link to='/side-lines'>Sidelines</Link></li>
+          <li><Link to='/desserts'>Desserts</Link></li>
+          <li><Link to='/deals'>Deals</Link></li>
+          <li><Link to='/drinks'>Drinks</Link></li>
+          <li><Link to='/dips'>Dips</Link></li>
+        </ul>
+        <hr />
       </div>
       <div className="dipscenterimage">
         <img src={extradips} alt="dipscenterimage" />

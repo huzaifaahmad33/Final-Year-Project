@@ -5,7 +5,7 @@ function Deals() {
   return (
     <div>
       <main>
-        Deals
+        No Deals Currently Available
       </main>
     </div>
   )
