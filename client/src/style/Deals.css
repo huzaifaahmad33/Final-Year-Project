@@ -12,3 +12,25 @@ main {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.navlinks-deals {
+    margin-top: 30px;
+}
+
+.navlinks-deals hr {
+    width: 50%;
+    margin-left: 380px;
+    display: inline-block;
+  }
+  
+  .navlinks-deals li {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  .navlinks-deals ul {
+    margin-left: 505px;
+  }

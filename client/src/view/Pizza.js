@@ -30,13 +30,13 @@ function Pizza() {
         <div className='pizza-heading'>
           <h1>Pizza</h1>
         </div>
-        <div class="main">
-    <div class="card">
+        <div class="main1">
+    <div class="card1">
       <img src={CrispyChickenPizza9Incher} alt="/"/>
         <div class="card-details">
           <div class="options">
             <label>
-              <input type="checkbox" name="option1"/> 2 PCS
+              <input type="checkbox" name="option1"/> Crispy 9 Incher
             </label>
             <select name="select1">
               <option>1</option>
@@ -44,30 +44,17 @@ function Pizza() {
               <option>3</option>
             </select>
             <label>
-              <h2>Rs 199</h2>
-            </label>
-          </div>
-          <div class="options">
-            <label>
-              <input type="checkbox" name="option2"/> 5 PCS
-            </label>
-            <select name="select2">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
-            <label>
-              <h2>Rs 449</h2>
+              <h2>Rs 1199</h2>
             </label>
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card1">
         <img src={CrispyChickenPizza10Incher} alt="/"/>
           <div class="card-details">
             <div class="options">
               <label>
-                <input type="checkbox" name="option1"/> Cheesy Pockets
+                <input type="checkbox" name="option1"/> Crispy 10 Incher
               </label>
               <select name="select1">
                 <option>1</option>
@@ -75,32 +62,35 @@ function Pizza() {
                 <option>3</option>
               </select>
               <label>
-              <h2>Rs 399</h2>
+              <h2>Rs 1399</h2>
             </label>
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card1">
           <img src={fullv1} alt="/"/>
             <div class="card-details">
               <div class="options">
                 <label>
-                  <input type="checkbox" name="option1"/> NonSpicy
+                  <input type="checkbox" name="option1"/> Original Full
                 </label>
                 <select name="select1">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
                 </select>
+                <label>
+              <h2>Rs 3599</h2>
+            </label>
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card1">
             <img src={halfandhalfv1} alt="/"/>
               <div class="card-details">
                 <div class="options">
                   <label>
-                    <input type="checkbox" name="option1"/> 2 PCS
+                    <input type="checkbox" name="option1"/> Full
                   </label>
                   <select name="select1">
                     <option>1</option>
@@ -108,30 +98,17 @@ function Pizza() {
                     <option>3</option>
                   </select>
                   <label>
-              <h2>Rs 149</h2>
-            </label>
-                </div>
-                <div class="options">
-                  <label>
-                    <input type="checkbox" name="option2"/> 5 PCS
-                  </label>
-                  <select name="select2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                  </select>
-                  <label>
-              <h2>Rs 349</h2>
+              <h2>Rs 3599</h2>
             </label>
                 </div>
               </div>
             </div>
-            <div class="card">
+            <div class="card1">
               <img src={original10incherv1} alt="/"/>
                 <div class="card-details">
                   <div class="options">
                     <label>
-                      <input type="checkbox" name="option1"/> 2 PCS
+                      <input type="checkbox" name="option1"/> Original 10 Incher
                     </label>
                     <select name="select1">
                       <option>1</option>
@@ -139,30 +116,17 @@ function Pizza() {
                       <option>3</option>
                     </select>
                     <label>
-              <h2>Rs 249</h2>
-            </label>
-                  </div>
-                  <div class="options">
-                    <label>
-                      <input type="checkbox" name="option2"/> 5 PCS
-                    </label>
-                    <select name="select2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
-                    <label>
-              <h2>Rs 449</h2>
+              <h2>Rs 1399</h2>
             </label>
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card1">
               <img src={original15incherv1} alt="/"/>
                 <div class="card-details">
                   <div class="options">
                     <label>
-                      <input type="checkbox" name="option1"/> 2 PCS
+                      <input type="checkbox" name="option1"/> 15 Incher
                     </label>
                     <select name="select1">
                       <option>1</option>
@@ -170,30 +134,17 @@ function Pizza() {
                       <option>3</option>
                     </select>
                     <label>
-              <h2>Rs 249</h2>
-            </label>
-                  </div>
-                  <div class="options">
-                    <label>
-                      <input type="checkbox" name="option2"/> 5 PCS
-                    </label>
-                    <select name="select2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
-                    <label>
-              <h2>Rs 449</h2>
+              <h2>Rs 2099</h2>
             </label>
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card1">
               <img src={pan9incherdesktop} alt="/"/>
                 <div class="card-details">
                   <div class="options">
                     <label>
-                      <input type="checkbox" name="option1"/> 2 PCS
+                      <input type="checkbox" name="option1"/> Pan 9 Incher
                     </label>
                     <select name="select1">
                       <option>1</option>
@@ -201,30 +152,17 @@ function Pizza() {
                       <option>3</option>
                     </select>
                     <label>
-              <h2>Rs 249</h2>
-            </label>
-                  </div>
-                  <div class="options">
-                    <label>
-                      <input type="checkbox" name="option2"/> 5 PCS
-                    </label>
-                    <select name="select2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
-                    <label>
-              <h2>Rs 449</h2>
+              <h2>Rs 1199</h2>
             </label>
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card1">
               <img src={pan12incherdesktop} alt="/"/>
                 <div class="card-details">
                   <div class="options">
                     <label>
-                      <input type="checkbox" name="option1"/> 2 PCS
+                      <input type="checkbox" name="option1"/> Pan 12 Incher
                     </label>
                     <select name="select1">
                       <option>1</option>
@@ -232,20 +170,7 @@ function Pizza() {
                       <option>3</option>
                     </select>
                     <label>
-              <h2>Rs 249</h2>
-            </label>
-                  </div>
-                  <div class="options">
-                    <label>
-                      <input type="checkbox" name="option2"/> 5 PCS
-                    </label>
-                    <select name="select2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
-                    <label>
-              <h2>Rs 449</h2>
+              <h2>Rs 1649</h2>
             </label>
                   </div>
                 </div>
