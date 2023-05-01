@@ -28,8 +28,10 @@ function Footer() {
                 <ul className="box">
                     <li><Link>0305-2094956</Link></li>
                     <li><Link>0306-9353680</Link></li>
+                    <li><Link>0306-1053815</Link></li>
                     <li><Link>ahuzaifa64@gmail.com</Link></li>
-                    <li><Link>haseeb@gmail.com</Link></li>
+                    <li><Link>M.haseeb@gmail.com</Link></li>
+                    <li><Link>M.hammad@gmail.com</Link></li>
                 </ul>
             </li>
             <div className="socials">

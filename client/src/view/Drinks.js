@@ -44,23 +44,9 @@ function Drinks() {
         <div class="card-details">
           <div class="options">
             <label>
-              <input type="checkbox" name="option1"/> Option 1
+              <input type="checkbox" name="option1"/> 1 ltr
             </label>
-            <select name="select1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
-          </div>
-          <div class="options">
-            <label>
-              <input type="checkbox" name="option2"/> Option 2
-            </label>
-            <select name="select2">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
+              <h2>179 Rs</h2>
           </div>
         </div>
       </div>
@@ -69,23 +55,9 @@ function Drinks() {
           <div class="card-details">
             <div class="options">
               <label>
-                <input type="checkbox" name="option1"/> Option 1
+                <input type="checkbox" name="option1"/> 1 ltr
               </label>
-              <select name="select1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-            </div>
-            <div class="options">
-              <label>
-                <input type="checkbox" name="option2"/> Option 2
-              </label>
-              <select name="select2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
+              <h2>179 Rs</h2>
             </div>
           </div>
         </div>
@@ -94,23 +66,9 @@ function Drinks() {
             <div class="card-details">
               <div class="options">
                 <label>
-                  <input type="checkbox" name="option1"/> Option 1
+                  <input type="checkbox" name="option1"/> 1 ltr
                 </label>
-                <select name="select1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
-              </div>
-              <div class="options">
-                <label>
-                  <input type="checkbox" name="option2"/> Option 2
-                </label>
-                <select name="select2">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
+                <h2>179 Rs</h2>
               </div>
             </div>
           </div>
@@ -119,23 +77,9 @@ function Drinks() {
               <div class="card-details">
                 <div class="options">
                   <label>
-                    <input type="checkbox" name="option1"/> Option 1
+                    <input type="checkbox" name="option1"/> 1 ltr
                   </label>
-                  <select name="select1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                  </select>
-                </div>
-                <div class="options">
-                  <label>
-                    <input type="checkbox" name="option2"/> Option 2
-                  </label>
-                  <select name="select2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                  </select>
+                  <h2>179 Rs</h2>
                 </div>
               </div>
             </div>
@@ -144,23 +88,9 @@ function Drinks() {
                 <div class="card-details">
                   <div class="options">
                     <label>
-                      <input type="checkbox" name="option1"/> Option 1
+                      <input type="checkbox" name="option1"/> 1 ltr
                     </label>
-                    <select name="select1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
-                  </div>
-                  <div class="options">
-                    <label>
-                      <input type="checkbox" name="option2"/> Option 2
-                    </label>
-                    <select name="select2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
+                    <h2>179 Rs</h2>
                   </div>
                 </div>
               </div>
@@ -169,23 +99,9 @@ function Drinks() {
                   <div class="card-details">
                     <div class="options">
                       <label>
-                        <input type="checkbox" name="option1"/> Option 1
+                        <input type="checkbox" name="option1"/> 1 ltr
                       </label>
-                      <select name="select1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
-                    </div>
-                    <div class="options">
-                      <label>
-                        <input type="checkbox" name="option2"/> Option 2
-                      </label>
-                      <select name="select2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
+                      <h2>179 Rs</h2>
                     </div>
                   </div>
                 </div>
@@ -194,23 +110,9 @@ function Drinks() {
                   <div class="card-details">
                     <div class="options">
                       <label>
-                        <input type="checkbox" name="option1"/> Option 1
+                        <input type="checkbox" name="option1"/> 1 ltr
                       </label>
-                      <select name="select1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
-                    </div>
-                    <div class="options">
-                      <label>
-                        <input type="checkbox" name="option2"/> Option 2
-                      </label>
-                      <select name="select2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
+                    <h2>179 Rs</h2>
                     </div>
                   </div>
                 </div>
@@ -219,23 +121,9 @@ function Drinks() {
                   <div class="card-details">
                     <div class="options">
                       <label>
-                        <input type="checkbox" name="option1"/> Option 1
+                        <input type="checkbox" name="option1"/> 1 ltr
                       </label>
-                      <select name="select1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
-                    </div>
-                    <div class="options">
-                      <label>
-                        <input type="checkbox" name="option2"/> Option 2
-                      </label>
-                      <select name="select2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
+                      <h2>179 Rs</h2>
                     </div>
                   </div>
                 </div>

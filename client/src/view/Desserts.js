@@ -39,23 +39,9 @@ function Desserts() {
         <div class="card-details">
           <div class="options">
             <label>
-              <input type="checkbox" name="option1"/> Option 1
+              <input type="checkbox" name="option1"/> Chocolate Cake
             </label>
-            <select name="select1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
-          </div>
-          <div class="options">
-            <label>
-              <input type="checkbox" name="option2"/> Option 2
-            </label>
-            <select name="select2">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
+            <h2>399 Rs</h2>
           </div>
         </div>
       </div>
@@ -64,23 +50,9 @@ function Desserts() {
           <div class="card-details">
             <div class="options">
               <label>
-                <input type="checkbox" name="option1"/> Option 1
+                <input type="checkbox" name="option1"/> Lava Cake
               </label>
-              <select name="select1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-            </div>
-            <div class="options">
-              <label>
-                <input type="checkbox" name="option2"/> Option 2
-              </label>
-              <select name="select2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
+              <h2>299 Rs</h2>
             </div>
           </div>
         </div>
@@ -89,23 +61,9 @@ function Desserts() {
             <div class="card-details">
               <div class="options">
                 <label>
-                  <input type="checkbox" name="option1"/> Option 1
+                  <input type="checkbox" name="option1"/> Nutella Mini
                 </label>
-                <select name="select1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
-              </div>
-              <div class="options">
-                <label>
-                  <input type="checkbox" name="option2"/> Option 2
-                </label>
-                <select name="select2">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
+                <h2>299 Rs</h2>
               </div>
             </div>
           </div>
@@ -114,23 +72,9 @@ function Desserts() {
               <div class="card-details">
                 <div class="options">
                   <label>
-                    <input type="checkbox" name="option1"/> Option 1
+                    <input type="checkbox" name="option1"/> Nutella Brownie
                   </label>
-                  <select name="select1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                  </select>
-                </div>
-                <div class="options">
-                  <label>
-                    <input type="checkbox" name="option2"/> Option 2
-                  </label>
-                  <select name="select2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                  </select>
+                  <h2>399 Rs</h2>
                 </div>
               </div>
             </div>

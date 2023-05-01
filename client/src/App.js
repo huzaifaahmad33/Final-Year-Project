@@ -12,6 +12,7 @@ import Sidelines from './view/Sidelines'
 import Desserts from './view/Desserts'
 import Drinks from './view/Drinks'
 import Dips from './view/Dips'
+import Cart from './view/Cart'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route exact path='/desserts' element={<Desserts/>}/>
       <Route exact path='/drinks' element={<Drinks/>}/>
       <Route exact path='/dips' element={<Dips/>}/>
+      <Route exact path='/cart' element={<Cart/>}/>
     </Routes>
     <Footer/>
     </>
