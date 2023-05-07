@@ -46,6 +46,12 @@ function Drinks() {
             <label>
               <input type="checkbox" name="option1"/> 1 ltr
             </label>
+            <select name="select1">
+            <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
               <h2>179 Rs</h2>
           </div>
         </div>
@@ -57,6 +63,12 @@ function Drinks() {
               <label>
                 <input type="checkbox" name="option1"/> 1 ltr
               </label>
+              <select name="select1">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
               <h2>179 Rs</h2>
             </div>
           </div>
@@ -68,6 +80,12 @@ function Drinks() {
                 <label>
                   <input type="checkbox" name="option1"/> 1 ltr
                 </label>
+                <select name="select1">
+                <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                 <h2>179 Rs</h2>
               </div>
             </div>
@@ -79,6 +97,12 @@ function Drinks() {
                   <label>
                     <input type="checkbox" name="option1"/> 1 ltr
                   </label>
+                  <select name="select1">
+                  <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                   <h2>179 Rs</h2>
                 </div>
               </div>
@@ -90,6 +114,12 @@ function Drinks() {
                     <label>
                       <input type="checkbox" name="option1"/> 1 ltr
                     </label>
+                    <select name="select1">
+                    <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                     <h2>179 Rs</h2>
                   </div>
                 </div>
@@ -101,6 +131,12 @@ function Drinks() {
                       <label>
                         <input type="checkbox" name="option1"/> 1 ltr
                       </label>
+                      <select name="select1">
+                      <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                       <h2>179 Rs</h2>
                     </div>
                   </div>
@@ -112,6 +148,12 @@ function Drinks() {
                       <label>
                         <input type="checkbox" name="option1"/> 1 ltr
                       </label>
+                      <select name="select1">
+                      <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                     <h2>179 Rs</h2>
                     </div>
                   </div>
@@ -123,6 +165,12 @@ function Drinks() {
                       <label>
                         <input type="checkbox" name="option1"/> 1 ltr
                       </label>
+                      <select name="select1">
+                      <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                       <h2>179 Rs</h2>
                     </div>
                   </div>

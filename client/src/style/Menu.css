@@ -5,6 +5,10 @@
     margin-bottom: 40px;
 }
 
+.slider {
+    z-index: -1;
+}
+
 .menu-heading::after {
     content: "";
     background-color: #ffc60b;

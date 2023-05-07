@@ -46,6 +46,7 @@ function Sidelines() {
               <input type="checkbox" name="option1"/> 2 PCS
             </label>
             <select name="select1">
+            <option>0</option>
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -59,6 +60,7 @@ function Sidelines() {
               <input type="checkbox" name="option2"/> 5 PCS
             </label>
             <select name="select2">
+            <option>0</option>
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -77,6 +79,7 @@ function Sidelines() {
                 <input type="checkbox" name="option1"/> Cheesy Pockets
               </label>
               <select name="select1">
+              <option>0</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -95,6 +98,7 @@ function Sidelines() {
                   <input type="checkbox" name="option1"/> NonSpicy
                 </label>
                 <select name="select1">
+                <option>0</option>
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -110,6 +114,7 @@ function Sidelines() {
                     <input type="checkbox" name="option1"/> 2 PCS
                   </label>
                   <select name="select1">
+                  <option>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -123,6 +128,7 @@ function Sidelines() {
                     <input type="checkbox" name="option2"/> 5 PCS
                   </label>
                   <select name="select2">
+                  <option>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -141,6 +147,7 @@ function Sidelines() {
                       <input type="checkbox" name="option1"/> 2 PCS
                     </label>
                     <select name="select1">
+                    <option>0</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -154,6 +161,7 @@ function Sidelines() {
                       <input type="checkbox" name="option2"/> 5 PCS
                     </label>
                     <select name="select2">
+                    <option>0</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -172,6 +180,7 @@ function Sidelines() {
                         <input type="checkbox" name="option1"/> 90g
                       </label>
                       <select name="select1">
+                      <option>0</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -185,6 +194,7 @@ function Sidelines() {
                         <input type="checkbox" name="option2"/> 175g
                       </label>
                       <select name="select2">
+                      <option>0</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -203,6 +213,7 @@ function Sidelines() {
                         <input type="checkbox" name="option1"/> Spicy
                       </label>
                       <select name="select1">
+                      <option>0</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -216,6 +227,7 @@ function Sidelines() {
                         <input type="checkbox" name="option2"/> BBQ
                       </label>
                       <select name="select2">
+                      <option>0</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -234,6 +246,7 @@ function Sidelines() {
                         <input type="checkbox" name="option1"/> Special
                       </label>
                       <select name="select1">
+                      <option>0</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>

@@ -39,6 +39,7 @@ function Pizza() {
               <input type="checkbox" name="option1"/> Crispy 9 Incher
             </label>
             <select name="select1">
+              <option>0</option>
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -57,6 +58,7 @@ function Pizza() {
                 <input type="checkbox" name="option1"/> Crispy 10 Incher
               </label>
               <select name="select1">
+              <option>0</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -75,6 +77,7 @@ function Pizza() {
                   <input type="checkbox" name="option1"/> Original Full
                 </label>
                 <select name="select1">
+                <option>0</option>
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -93,6 +96,7 @@ function Pizza() {
                     <input type="checkbox" name="option1"/> Full
                   </label>
                   <select name="select1">
+                  <option>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -111,6 +115,7 @@ function Pizza() {
                       <input type="checkbox" name="option1"/> Original 10 Incher
                     </label>
                     <select name="select1">
+                    <option>0</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -129,6 +134,7 @@ function Pizza() {
                       <input type="checkbox" name="option1"/> 15 Incher
                     </label>
                     <select name="select1">
+                    <option>0</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -147,6 +153,7 @@ function Pizza() {
                       <input type="checkbox" name="option1"/> Pan 9 Incher
                     </label>
                     <select name="select1">
+                    <option>0</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -165,6 +172,7 @@ function Pizza() {
                       <input type="checkbox" name="option1"/> Pan 12 Incher
                     </label>
                     <select name="select1">
+                    <option>0</option>
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>

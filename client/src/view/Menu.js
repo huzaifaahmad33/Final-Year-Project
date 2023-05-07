@@ -89,7 +89,7 @@ function Menu() {
   };
   return (
     <div>
-      <HeroSlider
+      <HeroSlider className='slider'
         slidingAnimation='left_to_right'
         orientation='horizontal'
         initialSlide={1}
@@ -109,7 +109,6 @@ function Menu() {
           <Slide key={index} background={slide} />
         ))}
       </HeroSlider>
-
       <section>
         <div className='menu-heading'>
           <h1>Menu</h1>

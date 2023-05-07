@@ -5,66 +5,101 @@
     text-align: center;
 }
 
-header {
-    display: flex;
-    background-color: white;
-    height: 85px;
-    justify-content: space-between;
-    align-items: center;
+.red-border {
     border-bottom: 2px solid #fd0000 !important;
 }
 
-header a img {
-    height: 83px;
-    margin: 6px 0 0 170px;
-}
-
-nav ul li a{
-    color: black;
-    text-transform: uppercase;
-    font-size: large;
-}
-
-nav ul li a::after {
-    content: "";
-    background-color: #ffc60b;
-    height: 2px;
-    width: 0;
-    margin: auto;
-    display: block;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-    transition: 0.3s linear;
-}
-
-header ul li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-header ul a {
-    transition: 0.3s ease 0s;
-}
-
 nav{
-    margin-right: 300px;
-}
-
-.nav-cart {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+  }
+  nav .logo img{
+    height: 80px;
     cursor: pointer;
-    background-color: #ffc60b;
-    border: none;
-    border-radius: 4px;
-    height: 38px;
-    width: 38px;
-    margin-right: 150px;
-}
-
-.nav-cart a i ion-icon {
-    height: 32px;
-    width: 32px;
-    padding: 2.5px;
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 470px;
+  }
+  nav ul li{
+    margin: 0 5px;
+  }
+  nav ul li a{
     color: black;
-}
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #111;
+    background: #ffc60b;
+  }
+  nav .menu-btn i{
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  @media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 1220px) {
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      z-index: 1;
+      position: fixed;
+      top: 112px;
+      left: -100%;
+      background: #111;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: #ffc60b;
+    }
+  }

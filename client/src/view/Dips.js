@@ -42,6 +42,12 @@ function Dips() {
             <label>
               <input type="checkbox" name="option1"/> Garlic & Herb
             </label>
+            <select name="select1">
+            <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
             <h2>79 Rs</h2>
           </div>
         </div>
@@ -53,6 +59,12 @@ function Dips() {
               <label>
                 <input type="checkbox" name="option1"/> Garlic Butter
               </label>
+              <select name="select1">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
               <h2>79 Rs</h2>
             </div>
           </div>
@@ -64,6 +76,12 @@ function Dips() {
                 <label>
                   <input type="checkbox" name="option1"/> Honey Mustard
                 </label>
+                <select name="select1">
+                <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                 <h2>79 Rs</h2>
               </div>
             </div>
@@ -75,6 +93,12 @@ function Dips() {
                   <label>
                     <input type="checkbox" name="option1"/> Sour Cream
                   </label>
+                  <select name="select1">
+                  <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                   <h2>79 Rs</h2>
                 </div>
               </div>
@@ -86,6 +110,12 @@ function Dips() {
                     <label>
                       <input type="checkbox" name="option1"/> Ranch
                     </label>
+                    <select name="select1">
+                    <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                     <h2>79 Rs</h2>
                   </div>
                 </div>
@@ -97,6 +127,12 @@ function Dips() {
                       <label>
                         <input type="checkbox" name="option1"/> Southwest
                       </label>
+                      <select name="select1">
+                      <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
                       <h2>79 Rs</h2>
                     </div>
                   </div>

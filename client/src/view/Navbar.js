@@ -9,20 +9,24 @@ function Navbar() {
       <div className="discount">
         Hey visitors, We've got a 15% discount for you! Now thats Awesome! 
       </div>
-      <header>
-        <Link to='/'>
-          <img src={logo} alt='logo'></img>
-        </Link>
-        <nav>
-          <ul>
+    <div class="main">
+      <nav>
+         <div class="logo">
+            <Link to="/"><img src={logo} alt=""/></Link>
+         </div>
+         <input type="checkbox" id="click"/>
+         <label for="click" class="menu-btn">
+         <i><ion-icon name="menu"></ion-icon></i>
+         </label>
+         <ul>
             <li><Link to="/">Menu</Link></li>
             <li><Link to="/deals">Deals</Link></li>
             <li><Link to="/side-lines">Order Online</Link></li>
-            <li><Link to="/contact-us">Contact us</Link></li>
-          </ul>
-        </nav>
-        <button className='nav-cart'><Link to="/cart"><i><ion-icon name="cart"></ion-icon></i></Link></button>
-      </header>
+            <li><Link to="/contact-us">Contact Us</Link></li>
+         </ul>
+      </nav>
+    </div>
+    <div className='red-border'></div>
     </div>
   )
 }
