@@ -104,6 +104,7 @@ function Menu() {
           autoPlayDuration: 3000,
         }}
         height={'350px'}
+        position={'absolute'}
       >
         {slides.map((slide, index) => (
           <Slide key={index} background={slide} />

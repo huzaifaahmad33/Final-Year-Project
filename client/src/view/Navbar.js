@@ -24,6 +24,7 @@ function Navbar() {
             <li><Link to="/side-lines">Order Online</Link></li>
             <li><Link to="/contact-us">Contact Us</Link></li>
          </ul>
+      <button className='nav-cart'><Link to="/cart"><i><ion-icon name="cart"></ion-icon></i></Link></button>
       </nav>
     </div>
     <div className='red-border'></div>
