@@ -3,7 +3,7 @@ import logo from '../images/logo.png'
 import '../style/Navbar.css'
 import { Link } from 'react-router-dom'
 
-function Navbar() {
+const Navbar = ({ setShow, size }) => {
   return (
     <div>
       <div className="discount">
@@ -12,7 +12,7 @@ function Navbar() {
     <div class="main">
       <nav>
          <div class="logo">
-            <Link to="/"><img src={logo} alt=""/></Link>
+            <Link to="/" onClick={() => setShow(true)}><img src={logo} alt=""/></Link>
          </div>
          <input type="checkbox" id="click"/>
          <label for="click" class="menu-btn">
@@ -24,7 +24,12 @@ function Navbar() {
             <li><Link to="/side-lines">Order Online</Link></li>
             <li><Link to="/contact-us">Contact Us</Link></li>
          </ul>
-      <button className='nav-cart'><Link to="/cart"><i><ion-icon name="cart"></ion-icon></i></Link></button>
+         <div className="cart" onClick={() => setShow(false)}>
+          <span>
+            <i className="fas fa-cart-plus"></i>
+          </span>
+          <span>{size}</span>
+        </div>
       </nav>
     </div>
     <div className='red-border'></div>
