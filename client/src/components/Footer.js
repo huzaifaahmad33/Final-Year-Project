@@ -38,7 +38,7 @@ function Footer() {
                 <h4>Follow Us</h4>
                 <a href="https://www.facebook.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-facebook"></ion-icon></i></a>
                 <a href="https://twitter.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-twitter"></ion-icon></i></a>
-                <a href="https://github.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-github"></ion-icon></i></a>
+                <a href="https://github.com/huzaifaahmad33/Final-Year-Project" target='_blank' rel='noreferrer'><i><ion-icon name="logo-github"></ion-icon></i></a>
                 <a href="https://www.instagram.com/" target='_blank' rel='noreferrer'><i><ion-icon name="logo-instagram"></ion-icon></i></a>
             </div>
         </ul>
