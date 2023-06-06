@@ -46,14 +46,14 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <button onClick={() => handleChange(item, -1)}>-</button>
           </div>
           <div>
-            <span>{item.price}</span>
+            <span>{item.price}</span> <br></br><br></br>
             <button onClick={() => handleRemove(item.id)}>Remove</button>
           </div>
         </div>
       ))}
       <div className="total">
         <span>Total Price of your Cart</span>
-        <span>Rs - {price}</span>
+        <span>Rs {price}</span>
       </div>
     </article>   
         </div>

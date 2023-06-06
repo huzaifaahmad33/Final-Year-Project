@@ -60,7 +60,7 @@
     border: none;
     outline: none;
     color: white;
-    background-color: skyblue;
+    background-color: red;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -81,13 +81,14 @@
   
   .total span:nth-child(1) {
     font-size: 2rem;
-    color: skyblue;
+    color: black;
     font-weight: bold;
     letter-spacing: 2px;
   }
   
   .total span:nth-child(2) {
     font-size: 2rem;
-    color: green;
+    color: black;
     font-weight: bold;
   }
+
